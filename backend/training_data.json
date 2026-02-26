@@ -35,6 +35,312 @@
       "question": "admin created q",
       "answer": "updated answer",
       "category": "admin"
+    },
+    {
+      "id": "q001",
+      "question": "What is the duration of each lecture?",
+      "answer": "Each lecture duration is 50 minutes.",
+      "category": "Timings"
+    },
+    {
+      "id": "q002",
+      "question": "How many periods are there in a day?",
+      "answer": "There are 7 periods in a day.",
+      "category": "Timings"
+    },
+    {
+      "id": "q003",
+      "question": "What time is the morning assembly?",
+      "answer": "Morning assembly starts at 9:00 AM.",
+      "category": "Timings"
+    },
+    {
+      "id": "q004",
+      "question": "What is the timing for practical exams?",
+      "answer": "Practical exams are conducted from 9:30 AM to 12:30 PM.",
+      "category": "Timings"
+    },
+    {
+      "id": "q005",
+      "question": "What is the timing for midterm exams?",
+      "answer": "Midterm exams are conducted from 10:00 AM to 1:00 PM.",
+      "category": "Timings"
+    },
+    {
+      "id": "q006",
+      "question": "What is the timing for final exams?",
+      "answer": "Final exams are conducted from 10:00 AM to 1:00 PM.",
+      "category": "Timings"
+    },
+    {
+      "id": "q007",
+      "question": "What is the timing for lab sessions?",
+      "answer": "Lab sessions are conducted from 1:30 PM to 4:30 PM.",
+      "category": "Timings"
+    },
+    {
+      "id": "q008",
+      "question": "What is the timing for guest lectures?",
+      "answer": "Guest lectures are usually scheduled from 11:00 AM to 1:00 PM.",
+      "category": "Timings"
+    },
+    {
+      "id": "q009",
+      "question": "What time does the admin office open?",
+      "answer": "The admin office opens at 9:00 AM.",
+      "category": "Timings"
+    },
+    {
+      "id": "q010",
+      "question": "What time does the admin office close?",
+      "answer": "The admin office closes at 5:00 PM.",
+      "category": "Timings"
+    },
+    {
+      "id": "q011",
+      "question": "What is the timing for club activities?",
+      "answer": "Club activities are conducted from 4:00 PM to 5:30 PM.",
+      "category": "Timings"
+    },
+    {
+      "id": "q012",
+      "question": "What are the timings for NSS meetings?",
+      "answer": "NSS meetings are conducted on Saturdays from 2:00 PM to 4:00 PM.",
+      "category": "Timings"
+    },
+    {
+      "id": "q013",
+      "question": "What are the timings for NCC meetings?",
+      "answer": "NCC meetings are conducted on Fridays from 3:00 PM to 5:00 PM.",
+      "category": "Timings"
+    },
+    {
+      "id": "q014",
+      "question": "What is the timing for cultural events?",
+      "answer": "Cultural events are usually conducted from 4:00 PM onwards.",
+      "category": "Timings"
+    },
+    {
+      "id": "q015",
+      "question": "What are the timings for sports events?",
+      "answer": "Sports events are conducted between 3:00 PM and 6:00 PM.",
+      "category": "Timings"
+    },
+    {
+      "id": "q016",
+      "question": "What is the timing for college celebrations?",
+      "answer": "College celebrations are usually conducted from 10:00 AM to 4:00 PM.",
+      "category": "Timings"
+    },
+    {
+      "id": "q017",
+      "question": "What is the timing for workshop sessions?",
+      "answer": "Workshop sessions are conducted from 9:30 AM to 4:30 PM.",
+      "category": "Timings"
+    },
+    {
+      "id": "q018",
+      "question": "What is the timing for seminars?",
+      "answer": "Seminars are conducted from 11:00 AM to 1:00 PM.",
+      "category": "Timings"
+    },
+    {
+      "id": "q019",
+      "question": "What are the timings for student council meetings?",
+      "answer": "Student council meetings are conducted from 3:30 PM to 5:00 PM.",
+      "category": "Timings"
+    },
+    {
+      "id": "q020",
+      "question": "What are the timings for parent-teacher meetings?",
+      "answer": "Parent-teacher meetings are conducted from 10:00 AM to 1:00 PM.",
+      "category": "Timings"
+    },
+    {
+      "id": "q021",
+      "question": "Can I get admission without entrance exam?",
+      "answer": "Yes, admission without entrance exam is available under management quota based on eligibility.",
+      "category": "Admissions"
+    },
+    {
+      "id": "q022",
+      "question": "Is there an application fee?",
+      "answer": "Yes, the application fee is Rs. 500.",
+      "category": "Admissions"
+    },
+    {
+      "id": "q023",
+      "question": "What is the admission fee payment method?",
+      "answer": "Admission fees can be paid through UPI, net banking, debit/credit card, or cash.",
+      "category": "Admissions"
+    },
+    {
+      "id": "q024",
+      "question": "Is there a counselling fee?",
+      "answer": "No separate counselling fee is charged.",
+      "category": "Admissions"
+    },
+    {
+      "id": "q025",
+      "question": "Do you provide admission for 12th pass students?",
+      "answer": "Yes, 12th pass students are eligible for undergraduate courses.",
+      "category": "Admissions"
+    },
+    {
+      "id": "q026",
+      "question": "Do you provide admission for diploma holders?",
+      "answer": "Yes, diploma holders can apply for lateral entry admissions.",
+      "category": "Admissions"
+    },
+    {
+      "id": "q027",
+      "question": "Do you provide admission for ITI students?",
+      "answer": "Yes, ITI students can apply for selected diploma programs.",
+      "category": "Admissions"
+    },
+    {
+      "id": "q028",
+      "question": "Do you accept students from other states?",
+      "answer": "Yes, students from other states are welcome to apply.",
+      "category": "Admissions"
+    },
+    {
+      "id": "q029",
+      "question": "Do you accept students from other countries?",
+      "answer": "Yes, international students can apply subject to visa and eligibility rules.",
+      "category": "Admissions"
+    },
+    {
+      "id": "q030",
+      "question": "What is the minimum marks required in 12th?",
+      "answer": "Minimum 45% aggregate marks in 12th is required.",
+      "category": "Admissions"
+    },
+    {
+      "id": "q031",
+      "question": "What is the minimum marks required in diploma?",
+      "answer": "Minimum 50% marks in diploma is required for lateral entry.",
+      "category": "Admissions"
+    },
+    {
+      "id": "q032",
+      "question": "Do you provide admission for sports quota?",
+      "answer": "Yes, sports quota admissions are available based on achievements.",
+      "category": "Admissions"
+    },
+    {
+      "id": "q033",
+      "question": "Do you provide admission for cultural quota?",
+      "answer": "Yes, cultural quota admissions are available.",
+      "category": "Admissions"
+    },
+    {
+      "id": "q034",
+      "question": "Can I apply for admission in multiple courses?",
+      "answer": "Yes, students can apply for multiple courses.",
+      "category": "Admissions"
+    },
+    {
+      "id": "q035",
+      "question": "Can I change course after admission?",
+      "answer": "Course change is allowed within the first semester subject to approval.",
+      "category": "Admissions"
+    },
+    {
+      "id": "q036",
+      "question": "Do you provide admission help for students?",
+      "answer": "Yes, admission guidance support is available.",
+      "category": "Admissions"
+    },
+    {
+      "id": "q037",
+      "question": "Is there a helpdesk for admission?",
+      "answer": "Yes, admission helpdesk is available during office hours.",
+      "category": "Admissions"
+    },
+    {
+      "id": "q038",
+      "question": "What is the admission contact number?",
+      "answer": "+91-9876543210",
+      "category": "Admissions"
+    },
+    {
+      "id": "q039",
+      "question": "What is the admission email ID?",
+      "answer": "admissions@college.edu",
+      "category": "Admissions"
+    },
+    {
+      "id": "q040",
+      "question": "Can I get admission through management quota?",
+      "answer": "Yes, management quota admissions are available.",
+      "category": "Admissions"
+    },
+    {
+      "id": "q041",
+      "question": "What is the intake capacity for CSE?",
+      "answer": "120 students.",
+      "category": "Courses"
+    },
+    {
+      "id": "q042",
+      "question": "What is the intake capacity for ECE?",
+      "answer": "120 students.",
+      "category": "Courses"
+    },
+    {
+      "id": "q043",
+      "question": "What is the intake capacity for ME?",
+      "answer": "60 students.",
+      "category": "Courses"
+    },
+    {
+      "id": "q044",
+      "question": "What is the intake capacity for CE?",
+      "answer": "60 students.",
+      "category": "Courses"
+    },
+    {
+      "id": "q045",
+      "question": "What is the intake capacity for AI & DS?",
+      "answer": "60 students.",
+      "category": "Courses"
+    },
+    {
+      "id": "q046",
+      "question": "What is the course fee for CSE?",
+      "answer": "Rs. 95,000 per year.",
+      "category": "Courses"
+    },
+    {
+      "id": "q047",
+      "question": "What is the course fee for ECE?",
+      "answer": "Rs. 90,000 per year.",
+      "category": "Courses"
+    },
+    {
+      "id": "q048",
+      "question": "What is the course fee for ME?",
+      "answer": "Rs. 80,000 per year.",
+      "category": "Courses"
+    },
+    {
+      "id": "q049",
+      "question": "What is the course fee for CE?",
+      "answer": "Rs. 80,000 per year.",
+      "category": "Courses"
+    },
+    {
+      "id": "q050",
+      "question": "What is the course fee for AI & DS?",
+      "answer": "Rs. 1,00,000 per year.",
+      "category": "Courses"
+    },
+    {
+      "id": "q178",
+      "question": "Is there a security gate at the college?",
+      "answer": "Yes, the college has a 24/7 security gate with guards.",
+      "category": "Contact"
     }
   ],
   "college_info": {}
