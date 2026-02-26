@@ -1,0 +1,12 @@
+body { font-family: Arial, sans-serif; background: #f5f7fb; margin: 0; padding: 20px; }
+.admin-container { max-width: 900px; margin: 0 auto; }
+.card { background: white; padding: 16px; border-radius: 8px; box-shadow: 0 2px 6px rgba(0,0,0,0.08); margin-bottom: 16px; }
+.hidden { display: none; }
+#qaList .qa { border-bottom: 1px solid #eee; padding: 8px 0; }
+.qa .meta { font-size: 12px; color: #666; }
+.qa textarea { width: 100%; box-sizing: border-box; margin-top: 6px; }
+.panel-header { display:flex; justify-content: space-between; align-items:center; }
+.info { color: green; }
+.error { color: red; }
+input, textarea { padding: 8px; margin: 6px 0; width: 100%; box-sizing: border-box; }
+button { padding: 8px 12px; margin: 6px 0; cursor: pointer; }

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>AI-Powered College Enquiry Chatbot</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+  <h1>🎓 AI-Powered College Enquiry Chatbot</h1>
+  
+  <div class="main-section">
+    <div class="chatbox-container">
+      <div class="chatbox" id="chatbox">
+        <div class="bot"><b>Bot:</b> Hello! I'm an AI-powered college assistant. Ask me anything about admissions, courses, timings, hostel, placements, and more!</div>
+      </div>
+      
+      <div class="input-section">
+        <input type="text" id="userInput" placeholder="Ask your question..." onkeypress="handleKeyPress(event)">
+        <button onclick="sendMessage()" class="send-btn">Send</button>
+      </div>
+    </div>
+    
+    <div class="admin-panel">
+      <h3>⚙️ Admin Panel</h3>
+      <div class="admin-buttons">
+        <button onclick="addTrainingData()" class="admin-btn">➕ Add Training Data</button>
+        <button onclick="viewTrainingData()" class="admin-btn">📊 View Training Data</button>
+        <button onclick="checkHealth()" class="admin-btn">💚 System Health</button>
+      </div>
+      
+      <div class="info-box">
+        <h4>About this Chatbot:</h4>
+        <ul>
+          <li>✓ AI-powered responses using OpenAI GPT-3.5</li>
+          <li>✓ Trainable with custom college data</li>
+          <li>✓ Dynamic data management</li>
+          <li>✓ Multiple categories support</li>
+          <li>✓ Smart related questions suggestion</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>

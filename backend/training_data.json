@@ -1,0 +1,41 @@
+{
+  "training_data": [
+    {
+      "question": "what is admission process",
+      "answer": "The admission process involves filling an application form, submitting documents, and attending an interview."
+    },
+    {
+      "question": "what are the fees",
+      "answer": "Annual fees are $5000 for undergraduate and $7000 for graduate programs."
+    },
+    {
+      "question": "how do i contact support",
+      "answer": "You can reach us at support@college.edu or call 1-800-COLLEGE."
+    },
+    {
+      "id": "74c4140cc53548928259f38a7fb3636c",
+      "question": "test question xyz",
+      "answer": "test answer",
+      "category": "test"
+    },
+    {
+      "id": "6613bac926f74c2a9a89934a84b51f77",
+      "question": "admin created q",
+      "answer": "updated answer",
+      "category": "admin"
+    },
+    {
+      "id": "363368f12b8e4040b5ee8a7e68ed706e",
+      "question": "test question xyz",
+      "answer": "test answer",
+      "category": "test"
+    },
+    {
+      "id": "845b66090e364c72bce9b4efb9c4af1d",
+      "question": "admin created q",
+      "answer": "updated answer",
+      "category": "admin"
+    }
+  ],
+  "college_info": {}
+}
