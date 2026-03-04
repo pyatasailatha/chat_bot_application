@@ -1,4 +1,4 @@
-const API_BASE = "http://localhost:5000";
+const API_BASE = "https://chat-bot-application-backend.onrender.com";
 
 function el(id){return document.getElementById(id)}
 
