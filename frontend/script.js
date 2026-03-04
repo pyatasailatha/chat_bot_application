@@ -148,67 +148,6 @@ function handleRelatedQuestion(question) {
   });
 }
 
-// Admin functions for managing training data
-async function addTrainingData() {
-  const question = prompt("Enter question:");
-  if (!question) return;
-  
-  const answer = prompt("Enter answer:");
-  if (!answer) return;
-  
-  const category = prompt("Enter category (admissions/courses/timings/hostel/placements):", "general");
-  
-  try {
-    const response = await fetch(API_BASE_URL + "/add-training-data", {
-      method: "POST",
-      headers: {"Content-Type": "application/json"},
-      body: JSON.stringify({question, answer, category})
-    });
-    
-    const data = await response.json();
-    if (data.success) {
-      alert("✓ Training data added successfully!");
-    } else {
-      alert("Error: " + data.error);
-    }
-  } catch (error) {
-    alert("Error: " + error.message);
-  }
-}
-
-async function viewTrainingData() {
-  try {
-    const response = await fetch(API_BASE_URL + "/get-training-data");
-    const data = await response.json();
-    
-    let output = "TRAINING DATA:\n\n";
-    output += "College Info:\n" + JSON.stringify(data.college_info, null, 2) + "\n\n";
-    output += `Total Training Entries: ${data.training_data.length}\n`;
-    
-    data.training_data.forEach((entry, idx) => {
-      output += `\n${idx + 1}. [${entry.category}]\n`;
-      output += `Q: ${entry.question}\n`;
-      output += `A: ${entry.answer}`;
-    });
-    
-    console.log(output);
-    alert("Training data loaded. Check console for details.\nTotal entries: " + data.training_data.length);
-  } catch (error) {
-    alert("Error: " + error.message);
-  }
-}
-
-async function checkHealth() {
-  try {
-    const response = await fetch(API_BASE_URL + "/health");
-    const data = await response.json();
-    
-    alert(`System Status: ${data.status}\nOpenAI API: ${data.openai}\nTraining Data: ${data.training_data_count} entries`);
-  } catch (error) {
-    alert("Error: " + error.message);
-  }
-}
-
 // restore chat on load
 document.addEventListener('DOMContentLoaded', () => {
   try{ restoreChat(); }catch(e){}

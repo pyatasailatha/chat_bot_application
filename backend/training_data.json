@@ -341,6 +341,18 @@
       "question": "Is there a security gate at the college?",
       "answer": "Yes, the college has a 24/7 security gate with guards.",
       "category": "Contact"
+    },
+    {
+      "id": "97d0816497d0462db23cb79eda0f5488",
+      "question": "what is the collage course name",
+      "answer": "jntuh collage of eng",
+      "category": "general"
+    },
+    {
+      "id": "813b3fef789246a493f2c62831c9a851",
+      "question": "what is the collage course name",
+      "answer": "jntuh collage of eng",
+      "category": "general"
     }
   ],
   "college_info": {}
